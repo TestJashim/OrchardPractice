@@ -1,0 +1,12 @@
+Orchard Core 
+
+1. https://garywoodfine.com/starting-a-new-project-with-orchard-core/
+2. https://blog.antosubash.com/posts/orchard-core-getting-started-p1
+3. https://garywoodfine.com/starting-a-new-project-with-orchard-core/
+4. https://docs.orchardcore.net/en/latest/docs/getting-started/
+
+
+
+
+
+

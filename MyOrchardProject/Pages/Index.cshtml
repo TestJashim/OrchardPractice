@@ -1,0 +1,16 @@
+﻿@page "/todos"
+@inject OrchardCore.IOrchardHelper Orchard
+@{
+    var todos = await Orchard.GetRecentContentItemsByContentTypeAsync("Todos");
+}
+@Orchard.ConsoleLog(todos)
+<h1>List all Todos</h1>
+@foreach (var todo in todos)
+{
+    <p>
+        @todo.DisplayText
+    </p>
+    <p>
+        @todo.Content.Todos.IsDone.Value
+    </p>
+}
